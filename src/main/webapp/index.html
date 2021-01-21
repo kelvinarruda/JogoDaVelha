@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JOGO DA VELHA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            /*#caixaJogo {
+                width: 300px;
+                margin: auto;
+                border: 1px solid black;
+                text-align: center;
+                padding: 20px;
+            }
+            
+            table {
+                text-align: center;
+            }
+            
+            .titulo {
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            
+            #jogar {
+                padding:10px 70px;
+                border: none;
+                background-color: lightcoral;
+                color: white;
+                border-radius: 5px;
+                cursor: pointer;
+            }*/
+            
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <h4>JOGO DA VELHA</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <form name="form1" action="Controlador" method="POST">
+                        <div class="form-group">
+                            <label for="jogador">Nome do Jogador: </label>
+                            <input type="text" class="form-control" id="jogador" name="jogador" placeholder="Jogador">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Jogar</button>
+                        <input type="hidden" name="comecou" value="1">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
